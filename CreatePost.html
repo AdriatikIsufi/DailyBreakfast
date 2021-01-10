@@ -1,0 +1,66 @@
+<DOCTYPE html>
+    <html>
+        <head> 
+            <title> Create Post </title>
+            <link type="text/css" rel="stylesheet" href="css/CreatePost.css">
+            <script src="https://kit.fontawesome.com/a81368914c.js"></script> <!-- ikonat -->
+            <script src="https://kit.fontawesome.com/b7f76f537f.js" crossorigin="anonymous"></script> <!-- ikonat -->
+            <link rel="shortcut icon" href="/assets/favicon.ico">
+            
+        </head>
+        
+        <body>
+            <header>
+                <div class="leftSideNav">
+                    <img id="logoja" src="images/logo.svg" alt="logo">
+                </div>
+                <div class="rightSideNav">
+                    <div class="dropdown">
+                        <div onclick="myFunction()" class="dropbtn"><span class = "far fa-user-circle fa-lg"></span>Account</div>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#">Dashboard</a>
+                          <a href="#">Log Out</a>
+                        </div>
+                      </div>
+
+                </div>
+            </header>
+            <div class ="dashboardContent">
+                <div class ="leftSideDash">
+                    <div class="nav-container">
+                        <a href="DashMngUsers.html">Accounts<span><i class="fas fa-users"></i></span></a>
+                        <a href="DashHisotry.html">History<span><i class="fas fa-history"></i></i></span></a>
+                        <a href="CreatePost.html">Create Post<span><i class="fas fa-plus-square"></i></span></a>
+                        <a href="index.html">Log off<span><i class="fas fa-sign-out-alt"></i></span></a>
+            
+                    </div>
+                </div>
+                <div class ="rightSideDash"> 
+                    <div class="titulli">
+                            <label for="Textarea">Titulli</label><br>
+                            <textarea type="text" id="textbox" ></textarea><br>
+                    </div> 
+                    <div class="artikulli">
+                        <label for="artikulli">Artikulli</label><br>
+                        <textarea type="text" id="textbox" ></textarea> 
+                    </div>
+                    <div class="fullpart">
+                        <div class="leftsidepart">
+                            <div class="drop-zone">
+                                <span class="drop-zone__prompt">Drop file here or click to upload</span>
+                                <input type="file" name="myFile" class="drop-zone__input">
+                            </div>
+                        </div>
+                        <div class="rightsidepart">
+                            <div class="buttons">
+                                <input type="button" value="Discard"><br>
+                                <input type="button", value="Post"><br>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <script src="scripts.js"></script>
+            <script src="script.js"></script>
+        </body>
+ </html>

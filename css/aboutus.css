@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+
+h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.team{
+	display: block;
+	width: 100%;
+	padding-top:60px;
+	background-color: #f6f6f6; 
+}
+
+.container{
+	display: inline-block;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 60px;
+}
+
+.team h1{
+	font-size: 36px;
+	font-family: open sans;
+	font-weight: 700;
+	color:#ffffff;
+	margin:0;
+	padding-bottom:60px;
+	text-align: center;
+}
+
+.team .card{
+	width:25%;
+	float: left;
+	padding:0px 15px;
+}
+
+.team .card .box {
+	padding:15px;
+	background-color: black;
+	border-radius:5px;
+	transition: margin 0.5s ease,box-shadow 1s ease;
+}
+
+.team .card .box:hover{
+	margin-top:-15px;
+	box-shadow:0px 0px 40px black;
+}
+
+.team .card .box img{
+	width:150px;
+	display: block;
+	margin:10px auto;
+	border-radius:50%;
+
+}
+
+.team .card .box h4{
+	font-size: 20px;
+	font-family: open sans;
+	margin:20px 0px 10px;
+	color:#ea5e71;
+	text-align: center;
+	font-weight: 700;
+}
+
+.team .card .box h5{
+	font-size:16px;
+	font-family: open sans;
+	font-weight: 600;
+	color:#b9b9b9;
+	margin:0px 0px 15px;
+	text-align: center;
+}
+.team .card .box p{
+	color:#b9b9b9;
+	font-size: 15px;
+	font-family: open sans;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	padding:0px 20px;
+}
+
+.title {
+	display: block;
+	font-size: 36px;
+	font-family: open sans;
+	font-weight: 700;
+	color:black;
+	margin:0;
+	padding-bottom:30px;
+	padding-top:0px;
+	text-align: center;
+}
+
+.map-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.map-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 8% 8% 8%;
+}

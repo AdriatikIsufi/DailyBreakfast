@@ -1,0 +1,104 @@
+.allcontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.allcontent .left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.allcontent .left-side {
+    width: 15%;
+    background-color: #2c3954;
+    height: 1500px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.allcontent .left-side .left-sidebar {
+    width: 100%;
+}
+
+.allcontent .left-side .left-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.allcontent .left-side .left-sidebar ul {
+    list-style: none;
+    color: white;
+}
+
+.allcontent .left-side .left-sidebar ul li {
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.allcontent .left-side .left-sidebar ul li:hover {
+    background-color: black;
+    transition: .5s;
+}
+
+.allcontent .right-side {
+    width: 85%;
+    padding: 50px;
+}
+
+.allcontent .right-side .right-content {
+    /* margin: 20px; */
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid grey;
+}
+
+.delete {
+    color: red;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+    text-decoration: none;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: .5rem;
+    background: #2c3954;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+@media only screen and (max-width: 1350px){
+    .allcontent .right-side .right-content{
+        padding-left: 0px;
+    }
+  }
